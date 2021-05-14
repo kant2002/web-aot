@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+
+    <SuppressTrimAnalysisWarnings>true</SuppressTrimAnalysisWarnings>
+    <IlcOptimizationPreference>Size</IlcOptimizationPreference>
+    <IlcDisableReflection>true</IlcDisableReflection>
+    <IlcGenerateStackTraceData>false</IlcGenerateStackTraceData>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="6.0.0-*" />
+  </ItemGroup>
+
+</Project>
